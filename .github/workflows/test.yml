@@ -13,7 +13,7 @@ jobs:
   python_36:
 
     # We need to use 20.04 to get access to the libolm3 package
-    runs-on: ubuntu-20.04
+    runs-on: [pcp-ci]
 
     steps:
       - uses: actions/checkout@v2
@@ -36,7 +36,7 @@ jobs:
   python_39:
 
     # We need to use 20.04 to get access to the libolm3 package
-    runs-on: ubuntu-20.04
+    runs-on: [pcp-ci]
 
     steps:
     - uses: actions/checkout@v2
